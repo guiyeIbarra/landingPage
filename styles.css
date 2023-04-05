@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: auto;
 }
 
 body {
@@ -9,11 +9,12 @@ body {
     height:auto;
     background-attachment: fixed;
     background-size: cover;
+}
+.poster {
+    padding-left: 40px;
+    margin-bottom: 260px;
+    border-radius: 10px;
     
-     
-
-
-
 }
 .navbar {
     padding: 2rem;
@@ -69,18 +70,18 @@ body {
     background-size:cover
 }
 
+
 .articulos {
-    background-color: transparent;
-    margin-left: 20px;
-    margin-block: 20px;
-    margin-inline: 60px;
+    background-color:transparent;
+    opacity:20%;
+    margin-right: auto;
     display: flex;
     justify-content: center;
-}
+    align-items: center;
+}    
 
-.marcas {
-  flex: auto;
-}
+
+
 
 .frase {
     text-align: center;
@@ -107,4 +108,14 @@ body {
 .redes-sociales {
     margin-block: 20px; 
     margin-left: 1100px; 
+}
+
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #e9ecef;
 }
