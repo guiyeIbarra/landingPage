@@ -1,3 +1,4 @@
+
 *{
     margin: auto;
 }
@@ -15,24 +16,40 @@ body {
     margin-bottom: 260px;
     border-radius: 10px;
     
+
+
 }
+
+.equipo {
+       color:white;
+
+}
+
 .navbar {
     padding: 2rem;
     background-color:transparent;
     
 }
 .nav-link {
-    font-family: Arial, "Helvetica", sans-serif;
-    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    font-size: 19px;
+    color: white;
+    justify-content: center;
+}
+.nav-link-active {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+    font-size: 19px;
     color: white;
     justify-content: center;
 }
 .dropdown-menu {
-    font-family: Arial, "Helvetica", sans-serif;
-    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
     color: white;
        
-      }
+}
 
 .collapse-navbar-collapse {
     font-family: Arial, "Helvetica", sans-serif;
@@ -45,13 +62,22 @@ body {
     color:white;
     
     
-  }
+}
 
 .navbar-collapse {
     align-items: center;
     justify-content:space-between;
     
 }
+
+.contacto {
+      color:transparent;
+      font-size: 20px;
+     
+      text-align: center;
+      
+}
+
 .btn {
     background-color:orangered;
     color: white;
@@ -78,9 +104,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}    
-
-
+} 
 
 
 .frase {
@@ -116,6 +140,80 @@ img {
 
 }
 
+.logo{
+    display: flex;
+    object-fit: contain;
+}
+
+.img{
+    align-self: center;
+    width: 10%;
+    height: 5em;
+    
+}
+
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: #e9ecef;
+
 }
+
+.nav-link.active {
+    background-color: black;
+
+}
+.boton-form {
+    background-color: orangered;
+    border-radius: 15px;
+    font-size: 15pt;
+    padding: auto;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+}
+.input1 {
+    background-color: white;
+    border-radius: 8px;
+    margin: 2px;
+    padding-left: 1cm;
+    font-family: 'Courier New', Courier, monospace;
+    align-items:center;
+
+}
+input.type1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    align-items: center;
+
+}
+.input-text {
+    background-color: white;
+    border-radius: 8px;
+    padding: 3rem;
+    margin: 2px;
+    padding-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form input {
+    width: 60%;
+    height: 40px;
+    margin: 0.5rem;
+  }
+  
+  .form button {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: orangered;
+    cursor: pointer;
+  }
