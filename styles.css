@@ -16,10 +16,13 @@ body {
     margin-bottom: 260px;
     border-radius: 10px;
     
+
+
 }
 
 .equipo {
        color: #e9ecef;
+
 }
 
 .navbar {
@@ -47,11 +50,12 @@ body {
 }
 
 
+
 .navbar-toggler {
     color:white;
     
     
-  }
+}
 
 .navbar-collapse {
     align-items: center;
@@ -59,23 +63,24 @@ body {
     
 }
 
+.nav-link.active {
+    color: white;
+    background-color: rgba (0,0,0,0);
+
+}
 .contacto {
       color: bisque;
       font-size: 20px;
-     
-      text-align: center;
-      
+      text-align: center;   
 }
 
 .btn {
-    background-color:orangered;
+    background-color:rgb(215, 94, 50);
     color: white;
-    
-
-
-
 }
-
+.btn:hover {
+    background-color: rgb(134, 134, 140);
+}
 .fender {
     background-image: url(./imagenes/musico-tocando.jpg);
     background-repeat:repeat;
@@ -133,8 +138,32 @@ img {
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: #e9ecef;
+
 }
 
-.nav-link.active {
-    background-color: black;
+.nav-link:hover {
+    color: rgb(113, 112, 116);
 }
+.carousel-item {
+    
+    height: 65vh;
+    min-height: 200px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 30, 30;
+  }
+  
+  /*.card-columns .card {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 200px !important; //esta es la parte importante para que todas tus card-img tengan la misma medida sin importar el tamaño de la imagen
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+  }
