@@ -71,8 +71,8 @@ body {
 }
 
 .contacto {
-      color:transparent;
-      font-size: 20px;
+      color:white;
+      font-size: 19px;
      
       text-align: center;
       
@@ -118,11 +118,8 @@ body {
 
 
 
-.copyright {
-    font-family: Helvetica; color: white;margin-block: 20px; margin-left: 40px;
-    font-size: 10pt;
 
-}
+
 .logo-footer {
     margin-block: 10px; 
     margin-left: 40px; 
@@ -216,4 +213,13 @@ input.type1 {
     border: none;
     background-color: orangered;
     cursor: pointer;
+  }
+  
+  .footer {
+    background-color: transparent;
+  }
+  .text-white{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    opacity: 40%;
   }
