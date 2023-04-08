@@ -144,7 +144,7 @@ img {
 .nav-link:hover {
     color: rgb(113, 112, 116);
 }
-.carousel-item {
+/*.carousel-item {
     
     height: 65vh;
     min-height: 200px;
@@ -156,9 +156,9 @@ img {
     margin: 30, 30;
   }
   
-  /*.card-columns .card {
+  .card-columns .card {
     display: inline-block;
-    width: 100%;
+    width: 80%;
   }
   
   .card-img-top {
@@ -166,4 +166,9 @@ img {
     height: 200px !important; //esta es la parte importante para que todas tus card-img tengan la misma medida sin importar el tamaño de la imagen
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
+  }*/
+  .imgnormalizada img {
+    width: auto;
+    height: 325px;
+    max-height: 325px;
   }
