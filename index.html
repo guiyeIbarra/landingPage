@@ -51,9 +51,9 @@
                   Productos
                 </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
-                    <li><a class="dropdown-item" href="#">Guitarras</a></li>
-                    <li><a class="dropdown-item" href="#">Baterías</a></li>
-                    <li><a class="dropdown-item" href="#">Teclados</a></li>
+                    <li><a class="dropdown-item" href="#">Guitarras y bajos</a></li>
+                    <li><a class="dropdown-item" href="#">Baterías y percusión</a></li>
+                    <li><a class="dropdown-item" href="#">Teclados y pianos</a></li>
                     <li><a class="dropdown-item" href="#">Amplificadores</a></li>
                    
               </li>
@@ -61,8 +61,7 @@
              </ul>
              
               <li class="nav-item">
-                <button class="nav-link active" ><a href="./contacto.html" target="_blank" >Contacto</button></a>
-                
+                <button class="nav-link active" ><a class="contacto" href="./contacto.html" target="_blank" >Contacto</button></a>
             </li>
             </ul>
 
@@ -81,20 +80,42 @@
 
   <main>
     <br>
+    <div class="banner">
+      <img class="banner1" src="./imagenes/banner promo.jpg" alt="promocion fender">
+    </div>
+    
+    <br>
     <br>
     <!--carousel-->
-    <!--carousel automático-->
-
-    <!--<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./imagenes/guitarras.jpeg" class="d-block w-100" alt="Guitarras en exhibición">
+        <div class="carousel-item active"> 
+          <div class="item imgnormalizada active">
+          <img src="./imagenes/jam.jpg" class="d-block w-100" alt="Guitarras en exhibición">
+          <div class="carousel-caption">
+            <h1>Guitarras en exhibición</h1>
+            <p>Visítanos y encuentra la guitarra de tus sueños</p>
+          </div>
+          </div>
         </div>
         <div class="carousel-item">
-          <img src="./imagenes/cuerdas.jpg" class="d-block w-100" alt="Cuerdas para guitarra y bajo">
+          <div class="item imgnormalizada">
+          <img src="./imagenes/microfonos.jpg" class="d-block w-100" alt="promo 50 off microfonos">
+          <div class="carousel-caption">
+            <h1 class="Texto en carrousel">Micrófonos en oferta!!</h1>
+            <p class="parrafos carrousel">50% off con todos los medios de pago</p>
+          </div>
+          </div>
         </div>
         <div class="carousel-item">
-          <img src="./imagenes/microfonos.jpg" class="d-block w-100" alt="Micrófonos">
+          <div class="item imgnormalizada">
+          <img src="./imagenes/sala de grabacion.jpg" class="d-block w-100" alt="sala de grabacion">
+          <div class="carousel-caption">
+            <h1>Probá tu instrumento</h1>
+            <p>En nuestra sala de sonido profesional</p>
+          </div>
+        </div>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -105,71 +126,35 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div>-->
-
-<!--carousel con texto-->
-    <div id="carouselExampleCaptions" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="item imgnormalizada active">
-          <img src="./imagenes/guitarras.jpeg" class="d-block w-100" alt="Guitarras">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Aprovechá las ofertas con tarjeta</h5>
-            <p>En 3, 6 y 12 cuotas sin interés.</p>
-          </div></div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="item imgnormalizada">
-          <img src="./imagenes/cuerdas.jpg" class="d-block w-100" alt="Cuerdas para guitarra">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Vení a visitar nuestras sucursales</h5>
-            <p>Estamos en Capital Federal, en provincia de Buenos Aires, y agregamos recientemente nuestra moderna susursal en Córdoba.</p>
-          </div></div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="item imgnormalizada">
-          <img src="./imagenes/microfonos.jpg" class="d-block w-100" alt="Micrófonos">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Micrófonos SHURE</h5>
-            <p>Somos representantes exclusivos de la prestigiosa marca Shure</p>
-          </div></div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
+    <br><br><br><br>
+   
     
     <!--fin de carousel-->
-    
 
-    <div class="promo" style="width: 18rem;">
-      <img src="./imagenes/iloverock.jpg" class="card-img-top" alt="promo">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-secondary">conseguilo ahora</a>
-      </div>
+
+  <div class="article">
+    <h2>Estuvimos participando en la Feria de la Música</h2>
+    <div class="feria img">
+    <img src="./imagenes/feria.png" alt="Feria de la Música">
     </div>
+    <p> La Feria comenzará el viernes 9 de septiembre con una jornada exclusiva para profesionales y los días 10 y 11 de septiembre la feria abrirá sus puertas al público general. Más de 150 marcas nacionales e internacionales en 2 días para toda la familia. 10 bandas y solistas en vivo, contenidos, áreas de experiencia y actividades educativas para el público general. Adicionalmente, habrá una jornada para lxs profesionales de la industria con charlas y debates sobre producción y nuevas tecnologías.</p>
     
+  </div>
 
-   <article class="equipo"> <p><h5>Probamos el nuevo Gallien Krueger MB210</h5></p> <a href="https://www.youtube.com/watch?v=qM_TtwrYFn8&ab_channel=Electr%C3%B3nicaparaM%C3%BAsicos" target="_blank"> <img src="./imagenes/equipo.jpg" alt="Equipo de bajo Gallien Krueger" > </a>
-</article>
-<article class="fender"> 
-       
-</article>
+  <div class="article">
+    <h2>Clase magistral de teclado</h2>
+    <br>
+    <p>Hugo Adrián Bistolfi es un pianista y tecladista argentino. Histórico tecladista del grupo musical de hard rock Rata Blanca por más de 15 años y creador de Alianza. Actualmente como solista con una amplia experimentación de distintas tendencias y diversos estilos musicales. </p>
+    <br>
+   <img src="./imagenes/tecladista.jpg" alt="Tecladista"> 
+  </div>
+
+  <div class="article">
+    <h2>Nueva consola Yamaha MG12XU</h2>
+    <p>La Consola Mezcladora Multiusos de 12 canales con interfaz de audio USB es un mezclador analógico que cuenta con alimentación phantom conmutable y preamplificadores de micrófono profesional, el modelo XU de la MG12 ofrece una multiplicidad de prestaciones respecto a su hardware. La estructura construida en metal robusto se encuentra específicamente diseñada para los entornos de prueba de la gira y actuación en vivo.Su poderosa tecnología de software integrado posee efectos incorporados de alta calidad, incluyendo reverb y delay de calidad profesional. </p>
+    <img src="./imagenes/consolaYamaha.jpg" alt="Consola Yamaha">
+  </div>
 
 
 <span class="articulos">
@@ -195,14 +180,7 @@
 
 </main>
 <footer>
-    <div class="logo-footer"><img src="./imagenes/favicon.png" alt="logo Grupo 6 C184" height="60px" width="60px
-            "></div>
-        <div class="copyright">
-        <p>&copy 2023 por Vero, Pato, Guille y Marcelo</p>
-        </div>
-        <div class="redes-sociales"><img src="./imagenes/" alt="redes sociales">
-        
-    </div>
+   
 
 
 </footer>
