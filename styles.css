@@ -24,12 +24,18 @@ body {
        color: #e9ecef;
 
 }
+.logo {
+     justify-content: center;
+     
+    
+}
 
 .navbar {
     padding: 2rem;
     background-color:transparent;
     
 }
+
 .nav-link {
     font-family: Arial, "Helvetica", sans-serif;
     font-size: 20px;
@@ -40,6 +46,8 @@ body {
     font-family: Arial, "Helvetica", sans-serif;
     font-size: 20px;
     color: white;
+    background-color: transparent;
+    border-color: transparent;
        
       }
 
@@ -48,9 +56,6 @@ body {
     font-size: 20px;
     color: white;
 }
-
-
-
 .navbar-toggler {
     color:white;
     
@@ -65,23 +70,35 @@ body {
 
 .nav-link.active {
     color: white;
-    background-color: rgba (0,0,0,0);
+    background-color: transparent;
 
 }
 .contacto {
-      color: bisque;
+      color:white;
       font-size: 20px;
-      text-align: center;   
+      text-align: center; 
+      text-decoration: none;  
+      margin: auto;
 }
 
+.contacto:hover{
+    color:orangered
+}
 .btn {
-    background-color:rgb(215, 94, 50);
+    background-color:orangered;
     color: white;
+    border-color: transparent;
 }
 .btn:hover {
-    background-color: rgb(134, 134, 140);
+    background-color: black;
 }
+.d-block-w-100{
+    font-family: Arial, "Helvetica", sans-serif;
+    color: orangered;
+}
+
 .fender {
+
     background-image: url(./imagenes/musico-tocando.jpg);
     background-repeat:repeat;
     background-position: center; 
@@ -93,10 +110,15 @@ body {
     width: auto;
     height: 500px;
     max-height: 500px;
+    border-radius: 20px;
 }
 .carousel-inner {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
+}
+.encabezados {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 .article {
     display: inline-block;
@@ -105,18 +127,21 @@ body {
     padding: 20px;
     box-sizing: border-box;
     color: white;
-  }
+}
+
+
   
-  .article img {
+.article img {
     width: 100%;
+    
   }
-  .feria img {
-    height: 250px;
+.feria img {
+    height: auto;
   }
 
 .articulos {
     background-color:transparent;
-    opacity:20%;
+    opacity:40%;
     margin-right: auto;
     display: flex;
     justify-content: center;
@@ -157,8 +182,15 @@ img {
 }
 
 .nav-link:hover {
-    color: rgb(113, 112, 116);
+    color:orangered;
 }
 
-
+.footer {
+    color: white;
+    text-align: center;
+    display: flex;
+   align-items: flex-end;
+   background: linear-gradient(black , rgb(4, 4, 173));
+   height: 150px;
+}
   
