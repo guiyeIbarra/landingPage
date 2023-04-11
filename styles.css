@@ -141,7 +141,7 @@ body {
 
 .articulos {
     background-color:transparent;
-    opacity:40%;
+    opacity:50%;
     margin-right: auto;
     display: flex;
     justify-content: center;
@@ -159,7 +159,7 @@ body {
     margin-top: 40px;
     margin-left: 30px;
 }
-.logo-footer {
+/*.logo-footer {
     margin-block: 10px; 
     margin-left: 40px; 
 
@@ -168,7 +168,7 @@ body {
 .redes-sociales {
     margin-block: 20px; 
     margin-left: 1100px; 
-}
+}*/
 
 img {
     padding-left: 10px;
@@ -184,13 +184,17 @@ img {
 .nav-link:hover {
     color:orangered;
 }
-
+.logoFooter {
+    margin-left: 20px;
+    height: 10px 10px;
+}    
 .footer {
     color: white;
-    text-align: center;
+    background: linear-gradient(black , rgb(4, 4, 173));
     display: flex;
    align-items: flex-end;
-   background: linear-gradient(black , rgb(4, 4, 173));
-   height: 150px;
+   height: 300px;
 }
-  
+
+
+ 
