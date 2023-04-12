@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 *{
     margin: auto;
 }
@@ -96,15 +98,7 @@ body {
     color: orangered;
 }
 
-.fender {
 
-    background-image: url(./imagenes/musico-tocando.jpg);
-    background-repeat:repeat;
-    background-position: center; 
-    height: 1200px;
-    background-attachment: fixed;
-    background-size:cover
-}
 .imgnormalizada img {
     width: auto;
     height: 500px;
