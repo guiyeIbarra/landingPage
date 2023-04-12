@@ -80,6 +80,10 @@ body {
       font-size: 20px;
       text-align: center; 
       text-decoration: none;  
+<<<<<<< HEAD
+=======
+      margin: auto;
+>>>>>>> 27b52aed5de83c5807ae464dd1409536361c6f57
 }
 
 .contacto:hover{
@@ -96,6 +100,7 @@ body {
 .d-block-w-100{
     font-family: Arial, "Helvetica", sans-serif;
     color: orangered;
+<<<<<<< HEAD
 }
 
 
@@ -109,6 +114,29 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
 }
+=======
+}
+
+.fender {
+
+    background-image: url(./imagenes/musico-tocando.jpg);
+    background-repeat:repeat;
+    background-position: center; 
+    height: 1200px;
+    background-attachment: fixed;
+    background-size:cover
+}
+.imgnormalizada img {
+    width: auto;
+    height: 500px;
+    max-height: 500px;
+    border-radius: 20px;
+}
+.carousel-inner {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+>>>>>>> 27b52aed5de83c5807ae464dd1409536361c6f57
 .encabezados {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
@@ -121,7 +149,19 @@ body {
     box-sizing: border-box;
     color: white;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 27b52aed5de83c5807ae464dd1409536361c6f57
+
+  
+.article img {
+    width: 100%;
+    
+  }
+.feria img {
+    height: auto;
+  }
 
   
 .article img {
@@ -134,7 +174,7 @@ body {
 
 .articulos {
     background-color:transparent;
-    opacity:20%;
+    opacity:50%;
     margin-right: auto;
     display: flex;
     justify-content: center;
@@ -143,16 +183,24 @@ body {
 
 
 
+<<<<<<< HEAD
 .copyright {
     font-family: Helvetica; color: white;margin-block: 20px; margin-left: 40px;
     font-size: 10pt;
 
 }
+=======
+
+>>>>>>> 27b52aed5de83c5807ae464dd1409536361c6f57
 .logo {
     margin-top: 40px;
     margin-left: 30px;
 }
+<<<<<<< HEAD
 .logo-footer {
+=======
+/*.logo-footer {
+>>>>>>> 27b52aed5de83c5807ae464dd1409536361c6f57
     margin-block: 10px; 
     margin-left: 40px; 
 
@@ -161,7 +209,7 @@ body {
 .redes-sociales {
     margin-block: 20px; 
     margin-left: 1100px; 
-}
+}*/
 
 img {
     padding-left: 10px;
@@ -177,6 +225,64 @@ img {
 .nav-link:hover {
     color:orangered;
 }
+<<<<<<< HEAD
 
 
   
+=======
+.logoFooter {
+    margin-left: 20px;
+    height: 10px 10px;
+}    
+.footer {
+    color: white;
+    background: linear-gradient(black , rgb(4, 4, 173));
+    display: flex;
+   align-items: flex-end;
+   height: 300px;
+}
+
+.copyright {
+    font-family: Helvetica; 
+    color: white;
+    font-size: 10pt;
+
+}
+.formulario {
+
+        color:white;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center; 
+      text-decoration: none;  
+      margin: 4px 300px 100px 300px;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-family: cursive;
+    
+  }
+
+ input, textarea {
+   font-family: serif;
+    background-color: rgb(228, 225, 225);
+    width: 100%;
+    padding: 5px;
+    outline: none;
+  }
+
+ /* label {
+    line-height: 1.9rem;
+  }
+
+  input[type="submit"] {
+   transform: translate(2.2%);
+   padding: 3px;
+   margin-top: 0.6rem;
+   font-family: cursive;
+   font-weight: bold;
+  }
+
+ fieldset {
+   padding: 20px 40px;
+ }
+>>>>>>> 27b52aed5de83c5807ae464dd1409536361c6f57
