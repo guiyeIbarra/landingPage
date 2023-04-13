@@ -1,9 +1,14 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap');
+
 
 *{
-    margin: auto;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
 }
+
 
 body {
     background-image: url(./imagenes/musico-tocando.jpg);
@@ -27,10 +32,13 @@ body {
 
 }
 .logo {
-     justify-content: center;
+     
+    justify-content: center;
+     margin: 20px;
      
     
 }
+
 
 .navbar {
     padding: 2rem;
@@ -39,23 +47,24 @@ body {
 }
 
 .nav-link {
-    font-family: Arial, "Helvetica", sans-serif;
-    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px;
     color: white;
     justify-content: center;
 }
 .dropdown-menu {
-    font-family: Arial, "Helvetica", sans-serif;
-    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px;
     color: white;
     background-color: transparent;
     border-color: transparent;
        
       }
+  
 
 .collapse-navbar-collapse {
-    font-family: Arial, "Helvetica", sans-serif;
-    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px;
     color: white;
 }
 .navbar-toggler {
@@ -77,13 +86,9 @@ body {
 }
 .contacto {
       color:white;
-      font-size: 20px;
+      font-size: 17px;
       text-align: center; 
       text-decoration: none;  
-<<<<<<< HEAD
-=======
-      margin: auto;
->>>>>>> 27b52aed5de83c5807ae464dd1409536361c6f57
 }
 
 .contacto:hover{
@@ -98,24 +103,10 @@ body {
     background-color: black;
 }
 .d-block-w-100{
-    font-family: Arial, "Helvetica", sans-serif;
+    font-family: 'Comfortaa', cursive;
     color: orangered;
-<<<<<<< HEAD
 }
 
-
-.imgnormalizada img {
-    width: auto;
-    height: 500px;
-    max-height: 500px;
-    border-radius: 20px;
-}
-.carousel-inner {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-}
-=======
-}
 
 .fender {
 
@@ -133,12 +124,11 @@ body {
     border-radius: 20px;
 }
 .carousel-inner {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 25px;
 }
->>>>>>> 27b52aed5de83c5807ae464dd1409536361c6f57
 .encabezados {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Comfortaa', cursive;
     
 }
 .article {
@@ -149,10 +139,7 @@ body {
     box-sizing: border-box;
     color: white;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 27b52aed5de83c5807ae464dd1409536361c6f57
 
   
 .article img {
@@ -161,46 +148,39 @@ body {
   }
 .feria img {
     height: auto;
-  }
-
-  
-.article img {
-    width: 100%;
-    
-  }
-.feria img {
-    height: auto;
+    justify-content: center;
   }
 
 .articulos {
-    background-color:transparent;
-    opacity:50%;
-    margin-right: auto;
+    padding: 20px;
+    background-color:black;
+    opacity:30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-}    
+
+} 
+.tira.de.instrumentos img:hover {
+    opacity: 0.5;
+    
+  }
 
 
-
-<<<<<<< HEAD
 .copyright {
-    font-family: Helvetica; color: white;margin-block: 20px; margin-left: 40px;
+    font-family: 'Comfortaa', cursive; 
+    color: white;
+    margin-block: 20px; 
+    margin-left: 40px;
     font-size: 10pt;
 
 }
-=======
-
->>>>>>> 27b52aed5de83c5807ae464dd1409536361c6f57
 .logo {
     margin-top: 40px;
     margin-left: 30px;
 }
-<<<<<<< HEAD
 .logo-footer {
-=======
-/*.logo-footer {
->>>>>>> 27b52aed5de83c5807ae464dd1409536361c6f57
     margin-block: 10px; 
     margin-left: 40px; 
 
@@ -209,7 +189,7 @@ body {
 .redes-sociales {
     margin-block: 20px; 
     margin-left: 1100px; 
-}*/
+}
 
 img {
     padding-left: 10px;
@@ -218,71 +198,15 @@ img {
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color: #e9ecef;
+    color: white;
 
 }
 
 .nav-link:hover {
     color:orangered;
 }
-<<<<<<< HEAD
+
+
 
 
   
-=======
-.logoFooter {
-    margin-left: 20px;
-    height: 10px 10px;
-}    
-.footer {
-    color: white;
-    background: linear-gradient(black , rgb(4, 4, 173));
-    display: flex;
-   align-items: flex-end;
-   height: 300px;
-}
-
-.copyright {
-    font-family: Helvetica; 
-    color: white;
-    font-size: 10pt;
-
-}
-.formulario {
-
-        color:white;
-       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      text-align: center; 
-      text-decoration: none;  
-      margin: 4px 300px 100px 300px;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
-    font-family: cursive;
-    
-  }
-
- input, textarea {
-   font-family: serif;
-    background-color: rgb(228, 225, 225);
-    width: 100%;
-    padding: 5px;
-    outline: none;
-  }
-
- /* label {
-    line-height: 1.9rem;
-  }
-
-  input[type="submit"] {
-   transform: translate(2.2%);
-   padding: 3px;
-   margin-top: 0.6rem;
-   font-family: cursive;
-   font-weight: bold;
-  }
-
- fieldset {
-   padding: 20px 40px;
- }
->>>>>>> 27b52aed5de83c5807ae464dd1409536361c6f57
