@@ -13,4 +13,3 @@ function tecnico() {
 function privacidad() {
     swal("Según el Art 22 del Reglamento de la UE 2016/679 se le informa expresamente que podrá ejercitar los derechos de acceso, rectificación, oposición, supresión, limitación, portabilidad y revocación de los consentimientos y autorizaciones concedidas dirigiéndose a nuestra empresa a través de la dirección de correo electrónico info@megathlon.com e indicando textualmente en el asunto: “El ejercicio del derecho solicitado seguido de su nombre completo”.");
 }
-
