@@ -50,7 +50,7 @@ body {
     border-color: transparent;
        
       }
-
+  
 
 .collapse-navbar-collapse {
     font-family: 'Comfortaa', cursive;
@@ -142,7 +142,7 @@ h1.divisor {
 }
 .article {
     display: inline-block;
-    text-align: center;
+    text-align:center;
     width: 33%;
     vertical-align: auto;
     padding: 20px;
@@ -162,10 +162,11 @@ p {
     margin: 20px;
 }
 h2 {
+    
     font-family: 'Alfa Slab One', cursive;
-    font-size: 30px;
+    font-size:30gpx;
     padding-left: 15px;
-    color:white;
+    color: white;
     }
 .precio {
     font-family: 'Alfa Slab One', cursive;
@@ -201,10 +202,11 @@ h2 {
     border-radius: 10px;
     
   }
-.feria img {
-    height: auto;
-    justify-content: center;
-  }
+.titulos{
+    font-family: 'Alfa Slab One', cursive;
+    color: orangered;
+}
+
 
 .articulos {
     padding: 20px;
@@ -297,25 +299,11 @@ img {
 }
 
 
-div.container.p-4{
+.p-4{
     align-items: center;
-    background: black;
-    background-color: black;
-    border-radius: 0%;
-    
-}
-#footer.bg-dark.text-center.text-white{
-    background-color: black;
-    background: black;
-    
-}
-.text-center.p-3{
-    font-size: 12px;
 }
 
-.bg-dark {
-    background-color: black !important;
-}
+
 
 
 
