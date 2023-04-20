@@ -1,70 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            
-            <!--aca abajo van los METADATOS (meta) son para posicionamiento web basicamente-->
     <meta name="description" content="Venta de Instrumentos musicales">
-            <!--esto es la descripción de nuestra web-->
     <meta name="keywords" content="Guitarra eléctrica, guitarra acústica, bajo, batería, micrófono, amplificador, casa de música, equipo de sonido">
-            <!--esto significa añadir palabras claves para los buscadores-->
     <meta name="author" content="Megathlon">
-            <!--el nombre de la empresa-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
-    <link rel="stylesheet" href="./dist/css/bootstrap.css">
-    <link rel="stylesheet" href="styles.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="stylesheet" href="./dist/css/bootstrap.css">
+      <link rel="stylesheet" href="styles.css">
     
-    <title>Megathlon Rock House / Venta de instrumentos musicales</title>
-    <!--aca abajo está el favicon del sitio-->
-    <link rel="icon" href="./imagenes/favicon.png" type="image/png" sizes="512-FAV">
+        <title>Megathlon Rock House / Venta de instrumentos musicales</title>
+        <link rel="icon" href="./imagenes/favicon.png" type="image/png" sizes="512-FAV">
 
 </head>
+
 <body>
   <header>
   
-
-    <!--ACA ESTA EL INICIO DE LA BARRA DE NAVEGACION O MENU DE LA WEB-->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <!--en esta linea abajo se cambió el icono. No es de IconScout, es propio!-->
           <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png" alt="Megathlon">
-            <a class="logo" href="#"> <img src="./imagenes/megathlon2 logo.png" style="max-width: 100%;"></a>
+          <a class="logo" href="#"> <img src="./imagenes/megathlon2 logo.png" style="max-width: 100%;"></a>
           
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!--aca se usa flex-box-->
             <ul class="navbar-nav d-flex justify-content-center align-items-center">
               <li class="nav-item">
                 <a class="nav-link" href="#">Inicio</a>
               </li>
-            <li class="nav-item">
+              <li class="nav-item">
                 <a class="nav-link" href="#">Sucursales</a>
-            </li>
+              </li>
 
               <li class="nav-item dropdown" data-bs-theme="dark">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="true">
                   Productos
                 </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
                     <li><a class="dropdown-item" href="#">Guitarras y bajos</a></li>
                     <li><a class="dropdown-item" href="#">Baterías y percusión</a></li>
                     <li><a class="dropdown-item" href="#">Teclados y pianos</a></li>
                     <li><a class="dropdown-item" href="#">Amplificadores</a></li>
-                   
               </li>
               
-             </ul>
+            </ul>
              
               <li class="nav-item">
                 <button class="nav-link active" ><a class="contacto" href="./contacto.html" target="_blank" >Contacto</button></a>
-            </li>
+              </li>
             </ul>
 
             <form class="d-flex" role="search">
@@ -73,13 +64,12 @@
             </form>
           </div>
         </div>
-      </nav>
     </nav>
-      <!--link a IconScout-->
+      
       <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
-    <!--ACA TERMINA EL MENU DE LA WEB-->  
-    </header>
+    
+  </header>
 
 
   <main>
@@ -87,172 +77,151 @@
     <div class="banner" style="text-align: center;">
       <a href="https://www.fender.com/on/demandware.store/Sites-Fender-INTL-Site/es/Search-Show?q=american%20ultra%20series" target="_blank"><img class src="./imagenes/banner promo.jpg" alt="promocion fender"></a>
     </div>
-    
     <br>
     <br>
-  
-    <!--carrousel-->
     
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active"> 
           <div class="item imgnormalizada active">
           <img src="./imagenes/jam.jpg" class="d-block w-100" alt="Guitarras en exhibición">
-          <div class="carousel-caption">
-            <h1 class="Texto en carrousel">Guitarras en exhibición </h1>
-            <h2 class="parrafos carrousel">Visítanos y encuentra la guitarra de tus sueños</h2>
-          </div>
+            <div class="carousel-caption">
+             <h1 class="Texto en carrousel">Guitarras en exhibición </h1>
+             <h2 class="parrafos carrousel">Visítanos y encuentra la guitarra de tus sueños</h2>
+            </div>
           </div>
         </div>
+          <div class="carousel-item">
+            <div class="item imgnormalizada">
+              <img src="./imagenes/microfonos.jpg" class="d-block w-100" alt="promo 50 off microfonos">
+                <div class="carousel-caption">
+                  <h1 class="Texto en carrousel">Micrófonos en oferta!!</h1>
+                  <h2 class="parrafos carrousel">50% off con todos los medios de pago</h2>
+                </div>
+           </div>
+          </div>
         <div class="carousel-item">
           <div class="item imgnormalizada">
-          <img src="./imagenes/microfonos.jpg" class="d-block w-100" alt="promo 50 off microfonos">
-          <div class="carousel-caption">
-            <h1 class="Texto en carrousel">Micrófonos en oferta!!</h1>
-            <h2 class="parrafos carrousel">50% off con todos los medios de pago</h2>
+            <img src="./imagenes/sala de grabacion.jpg" class="d-block w-100" alt="sala de grabacion">
+              <div class="carousel-caption">
+                <h1>Probá tu instrumento</h1>
+                <h2 class="parrafos carrousel">En nuestra sala de sonido profesional</h2>
+              </div>
           </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="item imgnormalizada">
-          <img src="./imagenes/sala de grabacion.jpg" class="d-block w-100" alt="sala de grabacion">
-          <div class="carousel-caption">
-            <h1>Probá tu instrumento</h1>
-            <h2 class="parrafos carrousel">En nuestra sala de sonido profesional</h2>
-          </div>
-        </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+        </button>
     </div>
     <br>
    
-    
-    <!--fin de carousel-->
-    <div>
-  </div>
   <h1 class="divisor"> Novedades Megathlon</h1>
-
-
 
   <div class="article">
     <h2>Inauguramos <span class="titulos">Megathlon Chicago</span></h2>
     <p> Con mucho orgullo confirmamos la inauguración de nuestra segunda sede en los EEUU, en Road White State, Chicago. Este nuevo local cuenta con 500 mt2 al igual que la sede de Miami. </p>
-    <div class="feria img">
-    <img src="./imagenes/megathlon chicago.jpg" alt="Feria de la Música">
-    </div>
-    
-    <p><button class="VerMas">Ver más</button></p>
+        <img src="./imagenes/megathlon chicago.jpg" alt="Feria de la Música">
+      <p><button class="VerMas">Ver más</button></p>
   </div>
 
   <div class="article">
     <h2>Clase magistral de teclado</h2>
     <p>Hugo Adrián Bistolfi, histórico tecladista de Rata Blanca por más de 15 años y creador de Alianza, dará una serie de clases en nuestra sede de Belgrano. Anotate y participá! </p>
-    
-   <img src="./imagenes/tecladista.jpg" alt="Tecladista">
-   <p><button class="VerMas">Ver más</button></p>
-    
+        <img src="./imagenes/tecladista.jpg" alt="Tecladista">
+      <p><button class="VerMas">Ver más</button></p>  
   </div>
 
   <div class="article">
     <h2>"20Buck Spin" by <span class="titulos">Dream Unending</span></h2>
     <p>Cada proyecto de Justin DeTore tiene calor garantizado, pero "Dream Unending" es su mayor logro. Con Derrick Vella de omb Mold en la guitarra este nuevo disco es una belleza</p>
-    
-   <img src="./imagenes/vinil product.jpg" alt="Dream Unending vynil">
-   <p><button class="VerMas">Ver más</button></p>
-    
+        <img src="./imagenes/vinil product.jpg" alt="Dream Unending vynil">
+      <p><button class="VerMas">Ver más</button></p> 
   </div>
+
   <h1 class="divisor"> Aprovechá estas ofertas por tiempo limitado</h1>
 
-   <div class="article">
-    <h2>Paiste 20" Gold S.</h2>
-          <img src="./imagenes/paiste producto.png" alt="paiste platillo">
-      <div class="info">
-    <p>Carácter brillante, cálido y distintivo.
-      Amplia gama media y una mezcla limpia.
-      Definido, ligeramente plateado sobre un lavado limpio.
-      <br>
-      Sonido claro y fuerte de campana.
-      <br>
-      Paseo muy versátil para múltiples aplicaciones.</p>
-      <p> Precio de lista: $159.900</p>
-    <p class="precio">$136.599</p>
-    <p>Aprovechá 12 cuotas con todas las tarjetas</p>
-    <p><button class="comprar">Comprar</button></p>
+    <div class="article">
+      <h2>Paiste 20" Gold S.</h2>
+        <img src="./imagenes/paiste producto.png" alt="paiste platillo">
+         <div class="info">
+           <p>Carácter brillante, cálido y distintivo.
+           Amplia gama media y una mezcla limpia.
+           Definido, ligeramente plateado sobre un lavado limpio.
+          <br>
+          Sonido claro y fuerte de campana.
+          <br>
+          Paseo muy versátil para múltiples aplicaciones.</p>
+          <p> Precio de lista: $159.900</p>
+          <p class="precio">$136.599</p>
+          <p>Aprovechá 12 cuotas con todas las tarjetas</p>
+       <p><button class="comprar">Comprar</button></p>
+      </div>
     </div>
-   </div>
-  <div class="article">
-    <h2>Roland Se-02</h2>
-    <img src="./imagenes/roland producto.png" alt="roland promo">
-    <p>Circuito analógico discreto con interfaz de perilla por función
-      Entradas CV, VCF CV y puerta, además de disparador de entrada/salida
-      Tres osciladores controlados por voltaje con seis formas de onda
-      </p>
-      <p> Precio de lista: $283.700</p>
-    <p class="precio">$258.580</p>
-    
-    <p>Aprovechá 12 cuotas con todas las tarjetas</p>
-    <p><button class="comprar">Comprar</button></p>
-   </div>
-   <div class="article">
-    <h2>Megathlon Style</h2>
-    <img src="./imagenes/mockup megathlon producto.png" alt="roland promo">
-    <p>Te presentamos la nueva colección Winter 2023 de Megathlon
-      Mock-Up de puro algodón.
-      Revestido en Polyfoam Ultra-Thin totalmente impermeable.
-      Colores disponibles: "Sunday Bloddy Red", "Green Tinted Sixties", "Black Hole Sun".</p>
-      <p> Precio de lista: $18.800</p>
-    <p class="precio">$15.800</p>
-    
-    <p>Aprovechá 12 cuotas con todas las tarjetas</p>
-    <p><button class="comprar">Comprar</button></p>
-   </div>
-   <div class="article">
-    <h2> Fender ’65 Reverb®</h2>
-    
-      <img src="./imagenes/fender deluxe product.png" alt="fender reverb 65">
-      <div class="info">
-    <p>Sonido más que suficiente para tocar en cualquier escenario acompañado con una batería y a su vez tiene un tamaño pequeño y un peso ligero como para transportarlo sin problemas. Sus 22 vatios de puro sonido Fender Deluxe, le hace ..
-     
-      <p> Precio de lista: $159.900</p>
-    <p class="precio">$136.599</p>
-    <p>Aprovechá 12 cuotas con todas las tarjetas</p>
-    <p><button class="comprar">Comprar</button></p>
-    </div>
-   </div>
-  <div class="article">
-    <h2>Squier Jazz Bass</h2> 
-    <img src="./imagenes/Jazz Bass de Squier.png" alt="Jazz Bass de Squier">
-    <p> Este 40Th Anniversary Jazz Bass de Squier recrea, a la perfección, el estilo de la marca en los 80s. Con herrajes de cromo, un golpeador de aluminio, una placa de mástil de aniversario grabada, este bajo eléctrico J Bass honra la herencia Squier.</p>
-      <p> Precio de lista: $375.000</p>
-    <p class="precio">$299.000</p>
-    
-    <p>Aprovechá 12 cuotas con todas las tarjetas</p>
-    <p><button class="comprar">Comprar</button></p>
-   </div>
-   <div class="article">
-    <h2>Gibson Walnut Studio</h2>
-    <img src="./imagenes/fender electroacustica.png" alt="gibson Hummingbird">
-    
-    <p>El modelo Hummingbird Studio continúa la larga historia de Gibson de producir diseños mundialmente famosos, como los modelos Hummingbird, Dove y Songwriter. Construido a mano utilizando... </p>
-      <p> Precio de lista: $868.800</p>
-    <p class="precio">$590.000</p>
-    
-    <p>Aprovechá 12 cuotas con todas las tarjetas</p>
-    <p><button class="comprar">Comprar</button></p>
-   </div>
-    
-  </div>
-  </div>
 
+    <div class="article">
+      <h2>Roland Se-02</h2>
+        <img src="./imagenes/roland producto.png" alt="roland promo">
+          <p>Circuito analógico discreto con interfaz de perilla por función
+          Entradas CV, VCF CV y puerta, además de disparador de entrada/salida
+          Tres osciladores controlados por voltaje con seis formas de onda
+          </p>
+          <p> Precio de lista: $283.700</p>
+          <p class="precio">$258.580</p>
+          <p>Aprovechá 12 cuotas con todas las tarjetas</p>
+            <p><button class="comprar">Comprar</button></p>
+    </div>
+
+    <div class="article">
+      <h2>Megathlon Style</h2>
+        <img src="./imagenes/mockup megathlon producto.png" alt="roland promo">
+          <p>Te presentamos la nueva colección Winter 2023 de Megathlon
+          Mock-Up de puro algodón.
+          Revestido en Polyfoam Ultra-Thin totalmente impermeable.
+          Colores disponibles: "Sunday Bloddy Red", "Green Tinted Sixties", "Black Hole Sun".</p>
+          <p> Precio de lista: $18.800</p>
+          <p class="precio">$15.800</p>
+          <p>Aprovechá 12 cuotas con todas las tarjetas</p>
+            <p><button class="comprar">Comprar</button></p>
+    </div>
+
+    <div class="article">
+      <h2> Fender ’65 Reverb®</h2>
+        <img src="./imagenes/fender deluxe product.png" alt="fender reverb 65">
+          <div class="info">
+            <p>Sonido más que suficiente para tocar en cualquier escenario acompañado con una batería y a su vez tiene un tamaño pequeño y un peso ligero como para transportarlo sin problemas. Sus 22 vatios de puro sonido Fender Deluxe, le hace ..
+            <p> Precio de lista: $159.900</p>
+            <p class="precio">$136.599</p>
+            <p>Aprovechá 12 cuotas con todas las tarjetas</p>
+              <p><button class="comprar">Comprar</button></p>
+          </div>
+    </div>
      
+    <div class="article">
+      <h2>Squier Jazz Bass</h2> 
+        <img src="./imagenes/Jazz Bass de Squier.png" alt="Jazz Bass de Squier">
+          <p> Este 40Th Anniversary Jazz Bass de Squier recrea, a la perfección, el estilo de la marca en los 80s. Con herrajes de cromo, un golpeador de aluminio, una placa de mástil de aniversario grabada, este bajo eléctrico J Bass honra la herencia Squier.</p>
+          <p> Precio de lista: $375.000</p>
+          <p class="precio">$299.000</p>
+          <p>Aprovechá 12 cuotas con todas las tarjetas</p>
+            <p><button class="comprar">Comprar</button></p>
+    </div>
+
+    <div class="article">
+      <h2>Gibson Walnut Studio</h2>
+        <img src="./imagenes/fender electroacustica.png" alt="gibson Hummingbird">
+          <p>El modelo Hummingbird Studio continúa la larga historia de Gibson de producir diseños mundialmente famosos, como los modelos Hummingbird, Dove y Songwriter. Construido a mano utilizando... </p>
+          <p> Precio de lista: $868.800</p>
+          <p class="precio">$590.000</p>
+          <p>Aprovechá 12 cuotas con todas las tarjetas</p>
+          <p><button class="comprar">Comprar</button></p>
+    </div>
+  > 
   <div class="container">
     <div class="row">
       <li class="tira de instrumentos"> 
@@ -267,137 +236,39 @@
     </div>
   </div>
   
+  </main>
 
+  <footer>
+    <footer class="bg-dark text-center text-white" id="footer">
+      <div class="container2 p-4">
+        <section class="Nosotros">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-0 mb-md-2">
 
-</main>
+              <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png" alt="Megathlon">
+              <h5 class="text-uppercase">Links útiles</h5>
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="alertas"> <span onclick="nosotros()">Nosotros </a></span>
+                  </li> 
 
-<!--<footer>
+                  <li>
+                    <a href="#!" class="alertas"> <span onclick="atencion()">Atención al Cliente</a></span>
+                  </li>
+
+                  <li>
+                    <a href="#!" class="alertas"> <span onclick="tecnico()">Servicio Técnico</a></span>
+                  </li>
+
+                  <li>
+                   <a href="#!" class="alertas"> <span onclick="privacidad()"> Politica de Privacidad</a></span>
+                  </li>
+                </ul>
+            </div>
   
-  <footer class="bg-dark text-center text-white" id="footer">
-    
-    <div class="container p-4">
-
-     
-      <section class="Nosotros">
-        
-   
-      <div class="links">
-      <div class="row">
-      
-        
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white"> <span onclick="nosotros()">Nosotros  </a>
-                </span>
-            </li>
-            
-            <li>
-              <a href="#!" class="text-white"> <span onclick="atencion()">Atención al Cliente</a>
-              </span> 
-            </li>
-            <li>
-              <a href="#!" class="text-white"> <span onclick="tecnico()">Servicio Técnico</a>
-              </span> 
-            </li>
-            <li>
-              <a href="#!" class="text-white"> <span onclick="privacidad()"> Politica de Privacidad</a>
-              </span>
-            </li>
-          </ul>
-        </div>
-        </div>
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-            <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png" alt="Megathlon">
-              <h5 class="text-uppercase">Sede Central</h5>
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <a> 0351/4857986</a>
-                </li>
-                <li>
-                  <a>Rivadavia 785 / Córdoba</a>
-                </li>
-                <li>
-                  <a href="mailto:" class="text-white">infoccentral@megathlon.com</a>
-                </li>
-              </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-            <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png" alt="Megathlon">
-              <h5 class="text-uppercase">Sucursal Olmos</h5>
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <a> 0351/4783654</a>
-                </li>
-                <li>
-                  <a>Paraná 1245 / Córdoba</a>
-                </li>
-                <li>
-                  <a href="mailto:" class="text-white">infocolmos@megathlon.com</a>
-                </li>
-              </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-            <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png" alt="Megathlon">
-              <h5 class="text-uppercase">Nuestras Redes</h5>
-              <li style="list-style: none;">
-                <a href="https://es-la.facebook.com/"><img src="./imagenes/facebook.png"
-                  style="max-width: 15%;" alt="Facebook"></a>
-                <a href="https://www.instagram.com/"><img src="./imagenes/instagram.png"
-                  style="max-width: 15%;" alt="Instagram"></a>
-                <a href="https://www.whatsapp.com/?lang=es"><img src="./imagenes/whatsapp.png"
-                  style="max-width: 15%;" alt="Whatsapp"></a>
-              </li>
-          </div>
-
-        </div>
-
-
-    </div>
-    
-    </section>-->
-    <footer>
-      <!-- Footer -->
-      <footer class="bg-dark text-center text-white" id="footer">
-        <!-- Grid container -->
-        <div class="container2 p-4">
-  
-          <!-- Section: Links -->
-          <section class="Nosotros">
-            <!--Grid row-->
-            <div class="row">
-  
-              <div class="col-lg-3 col-md-6 mb-0 mb-md-2">
-                <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png" alt="Megathlon">
-                  <h5 class="text-uppercase">Links útiles</h5>
-                  <ul class="list-unstyled mb-0">
-                    <li>
-                      <a href="#!" class="alertas"> <span onclick="nosotros()">Nosotros </a>
-                      </span>
-                    </li>
-                    <li>
-                      <a href="#!" class="alertas"> <span onclick="atencion()">Atención al Cliente</a>
-                      </span>
-                    </li>
-                    <li>
-                      <a href="#!" class="alertas"> <span onclick="tecnico()">Servicio Técnico</a>
-                      </span>
-                    </li>
-                    <li>
-                      <a href="#!" class="alertas"> <span onclick="privacidad()"> Politica de Privacidad</a>
-                      </span>
-                    </li>
-                  </ul>
-              </div>
-  
-              <div class="col-lg-3 col-md-6 mb-0 mb-md-2">
-                <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png" alt="Megathlon">
-                  <h5 class="text-uppercase">Sucursal C. Central</h5>
+            <div class="col-lg-3 col-md-6 mb-0 mb-md-2">
+              <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png" alt="Megathlon">
+                <h5 class="text-uppercase">Sucursal C. Central</h5>
                   <ul class="list-unstyled mb-0">
                     <li>
                       <a> 0351/4857986</a>
@@ -409,11 +280,11 @@
                       <a href="mailto:" class="mail">infoCCENTRAL@megathlon.com</a>
                     </li>
                   </ul>
-              </div>
+            </div>
   
-              <div class="col-lg-3 col-md-6 mb-0 mb-md-2">
-                <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png" alt="Megathlon">
-                  <h5 class="text-uppercase">Sucursal Olmos</h5>
+            <div class="col-lg-3 col-md-6 mb-0 mb-md-2">
+              <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png" alt="Megathlon">
+                <h5 class="text-uppercase">Sucursal Olmos</h5>
                   <ul class="list-unstyled mb-0">
                     <li>
                       <a> 0351/4783654</a>
@@ -425,11 +296,11 @@
                       <a href="mailto:" class="mail2">infoCOLMOS@megathlon.com</a>
                     </li>
                   </ul>
-              </div>
+            </div>
   
-              <div class="col-lg-3 col-md-6 mb-0 mb-md-2">
-                <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png" alt="Megathlon">
-                  <h5 class="text-uppercase">Nuestras Redes</h5>
+            <div class="col-lg-3 col-md-6 mb-0 mb-md-2">
+              <a class="navbar-brand" href="#"><img src="./imagenes/favicon logo menu.png" alt="Megathlon">
+                <h5 class="text-uppercase">Nuestras Redes</h5>
                   <li style="list-style: none;">
                     <a href="https://es-la.facebook.com/"><img src="./imagenes/facebook.png" style="max-width: 18%;"
                         alt="Facebook"></a>
@@ -438,30 +309,22 @@
                     <a href="https://www.whatsapp.com/?lang=es"><img src="./imagenes/whatsapp.png" style="max-width: 23%;"
                         alt="Whatsapp"></a>
                   </li>
-              </div>
-  
             </div>
   
-  
-        </div>
-        <!--Grid row-->
-        </section>
-
-    <!-- Section: Links -->
-    </div>
-    <!-- Grid container -->
-
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-image: linear-gradient(black, orangered)">
+          </div>
+      </div>
+  </section>
+    
+      <div class="text-center p-3" style="background-color:orangered">
       © 2023 Copyright: GrupoSeis
       <a class="gruposeis" href="imagenes/GRUPO6.pdf" target="_blank">gruposeis.com</a>
-    </div>
+      </div>
   </footer>
-<!-- Footer -->
+
 </body>
 
 <script src="./dist/js/bootstrap.bundle.min.js"></script>
 <script src="./script.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-</html>
+</html> 

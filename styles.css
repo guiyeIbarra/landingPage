@@ -2,14 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Comfortaa:wght@300&display=swap');
 
-
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
     font-family: 'Comfortaa', cursive;
 }
-
 
 body {
     background-image: url(./imagenes/musico-tocando.jpg);
@@ -20,20 +18,14 @@ body {
     background-size: cover;
 }
 
-
 .logo {
-     
     justify-content: center;
-     margin: 20px;
-     
-    
+    margin: 20px; 
 }
-
 
 .navbar {
     padding: 20px;
     background-color:black;
-    
 }
 
 .nav-link {
@@ -48,19 +40,16 @@ body {
     color: white;
     background-color: transparent;
     border-color: transparent;
-       
-      }
-  
+}
 
 .collapse-navbar-collapse {
     font-family: 'Comfortaa', cursive;
     font-size: 17px;
     color: white;
 }
+
 .navbar-toggler {
-    color:white;
-    
-    
+    color:white;  
 }
 
 .navbar-collapse {
@@ -75,71 +64,61 @@ body {
 
 }
 .contacto {
-      color:white;
-      font-size: 17px;
-      text-align: center; 
-      text-decoration: none;  
+    color:white;
+    font-size: 17px;
+    text-align: center; 
+    text-decoration: none;  
 }
 
 .contacto:hover{
     color:orangered
 }
+
 .btn {
     background-color:orangered;
     color: white;
     border-color: transparent;
 }
+
 .btn:hover {
     background-color: black;
 }
+
 .d-block-w-100{
     font-family: 'Comfortaa', cursive;
     color: orangered;
 }
 
-
-.fender {
-
-    background-image: url(./imagenes/musico-tocando.jpg);
-    background-repeat:repeat;
-    background-position: center; 
-    height: 1200px;
-    background-attachment: fixed;
-    background-size:cover
-}
 .imgnormalizada img {
     width: auto;
     height: 500px;
     max-height: 500px;
     border-radius: 20px;
 }
+
 h1 {
     font-family: 'Alfa Slab One', cursive;
     padding: 15px;
     color: white;
     font-style: normal;
     background-color:  orangered;
-    
-    
-    
-    
-    
 }
+
 h1.divisor {
     padding: auto;
     text-align: center;
 }
 
-
-
 .carousel-inner {
     font-family: 'Comfortaa', cursive;
     font-size: 25px;
 }
+
 .encabezados {
     font-family: 'Comfortaa', cursive;
     
 }
+
 .article {
     display: inline-block;
     text-align:center;
@@ -151,9 +130,8 @@ h1.divisor {
     background-color: rgba(0, 0, 0, 0.8); 
     border-radius: 10px;
     border-color: orangered;
-   
-    
 }
+
 p {
     font-size: 14px;
     align-items: center;
@@ -161,6 +139,7 @@ p {
     padding-right: 0px;
     margin: 20px;
 }
+
 h2 {
     
     font-family: 'Alfa Slab One', cursive;
@@ -168,45 +147,46 @@ h2 {
     padding-left: 15px;
     color: white;
     }
+
 .precio {
     font-family: 'Alfa Slab One', cursive;
     font-size: 30px;
     color: orangered;
 }
+
 .comprar {
     padding: 10px;
     background-color:green;
     color: white;
     border-radius: 10px;
 }
+
 .comprar:hover{
     background-color:greenyellow;
     color: black;
-
 }
+
 .VerMas {
     padding: 10px;
     background-color: orangered;
     color: white;
     border-radius: 10px;
     }
+
 .VerMas:hover {
     background-color:green;
     color: white;
-
 }
 
-  
 .article img {
     width: 100%;
     border-radius: 10px;
-    
-  }
+}
+
 .titulos{
     font-family: 'Alfa Slab One', cursive;
     color: orangered;
 }
-
 
 .articulos {
     padding: 20px;
@@ -217,14 +197,11 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-
 } 
+
 .tira.de.instrumentos img:hover {
     opacity: 0.5;
-    
 }
-
-
 
 input[type=text], select, textarea {
     width: 100%;
@@ -235,9 +212,9 @@ input[type=text], select, textarea {
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical 
-  }
-  
-  input[type=enviar] {
+}
+
+input[type=enviar] {
     background-color: orangered;
     color: white;
     text-align: center;
@@ -245,24 +222,23 @@ input[type=text], select, textarea {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-  }
-  
-  /* cambia el color cuando se pasa el cursor sobre el boton */
-  input[type=enviar]:hover {
-    background-color:black;
-  }
+}
 
-  /* fondo del formulario */
-  .container {
+input[type=enviar]:hover {
+    background-color:black;
+}
+
+.container {
     border-radius: 10px;
     background-color:transparent;
     padding: 20px;
-  }
-  .Nosotros {
+}
+
+.Nosotros {
     font-size: small;
-   display: flex;
-   justify-content: space-between;
-  }
+    display: flex;
+    justify-content: space-between;
+}
 
 .copyright {
     font-family: 'Comfortaa', cursive; 
@@ -270,64 +246,61 @@ input[type=text], select, textarea {
     margin-block: 20px; 
     margin-left: 40px;
     font-size: 10pt;
-
 }
+
 .logo {
     margin-top: 40px;
     margin-left: 30px;
 }
+
 .logo-footer {
     margin-block: 10px; 
     margin-left: 40px; 
-
 }
-
-
 
 img {
     padding-left: 10px;
     padding-right: 10px;
-
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: white;
-
 }
 
 .nav-link:hover {
     color:orangered;
 }
+
 .row{
     text-align: left;
 }
-
 
 .p-4{
     align-items: center;
 }
 
-
 .container {
     border-radius: 10px;
     background-image: linear-gradient(black, orangered,black )  ;
     padding: 20px;
-  }
-  .container2 {
-    background-color: black;
-  }
-.container3 {
-   margin-right:  350px;
-   margin-left: 350px;
 }
- .enviar {
+
+.container2 {
+    background-color: black;
+}
+
+.container3 {
+    margin-right:  350px;
+    margin-left: 350px;
+}
+
+.enviar {
     padding: 10px;
     border-radius: 10px;
     background-color: orangered;
-    
+}
 
- }
-  .links {
+.links {
     font-size: 18px;
     height: 80px;
     width: 350px;
@@ -335,28 +308,35 @@ img {
     display: flex;
     justify-content: left;
 }
+
 .alertas {
     color: white;
 }
+
 .alertas:hover {
     color: orangered;
 }
 
-  .mail {
+.mail {
     color: white;
-  }
+}
+
 .mail:hover {
     color: orangered;
-  } 
+} 
+
 .mail2 {
     color: white;
-  }
-  .mail2:hover {
+}
+
+.mail2:hover {
     color: orangered;
-  }
-  .gruposeis {
+}
+
+.gruposeis {
     color: rgb(27, 220, 27);
-  }
-  .gruposeis:hover {
+}
+
+.gruposeis:hover {
     color: greenyellow;
-  }
+}
