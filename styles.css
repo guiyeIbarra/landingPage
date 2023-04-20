@@ -258,7 +258,11 @@ input[type=text], select, textarea {
     background-color:transparent;
     padding: 20px;
   }
-
+  .Nosotros {
+    font-size: small;
+   display: flex;
+   justify-content: space-between;
+  }
 
 .copyright {
     font-family: 'Comfortaa', cursive; 
@@ -304,7 +308,55 @@ img {
 }
 
 
+.container {
+    border-radius: 10px;
+    background-image: linear-gradient(black, orangered,black )  ;
+    padding: 20px;
+  }
+  .container2 {
+    background-color: black;
+  }
+.container3 {
+   margin-right:  350px;
+   margin-left: 350px;
+}
+ .enviar {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orangered;
+    
 
+ }
+  .links {
+    font-size: 18px;
+    height: 80px;
+    width: 350px;
+    font-family: cursive;
+    display: flex;
+    justify-content: left;
+}
+.alertas {
+    color: white;
+}
+.alertas:hover {
+    color: orangered;
+}
 
-
-  
+  .mail {
+    color: white;
+  }
+.mail:hover {
+    color: orangered;
+  } 
+.mail2 {
+    color: white;
+  }
+  .mail2:hover {
+    color: orangered;
+  }
+  .gruposeis {
+    color: rgb(27, 220, 27);
+  }
+  .gruposeis:hover {
+    color: greenyellow;
+  }
